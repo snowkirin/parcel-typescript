@@ -1,0 +1,18 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "$(npm bin)/parcel build ./src/index.html",
+    "start": "start.sh",
+    "serve": "tsc --noEmit --watch & parcel ./src/index.html --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.4"
+  }
+}
